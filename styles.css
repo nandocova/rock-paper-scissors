@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(53, 53, 53);
+    color: rgb(204, 204, 204);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12pt;
+    color: rgb(153, 153, 153);
+}
+
+#images #rock, #images #paper, #images #scissors {
+    border: 2px solid black;
+    border-radius: 12px;
+    max-width: 96pt;
+}
+
+button {
+    font-size: 14pt;
+    width: 96pt;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+hr {
+    width: 128pt;
+    border-color:rgb(153, 153, 153);
+}
