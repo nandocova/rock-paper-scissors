@@ -15,7 +15,7 @@ function getComputerChoice() {
 }
 
 function playRound(playerSelection, computerSelection){
-    if (playerSelection === "rock"){
+    if (playerSelection === "rock") {
         if (computerSelection === "rock") {
             console.log(`\t${playerSelection} vs ${computerSelection}`)
             console.log("\tIt's a draw!");
@@ -62,7 +62,7 @@ function playRound(playerSelection, computerSelection){
 
 function game() {
     let score = 0;
-    let totalGames = 3;
+    let totalGames = 5;
 
     for (let i = 0; i < totalGames; i++) {
         // Play five rounds
